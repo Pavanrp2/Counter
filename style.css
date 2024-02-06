@@ -1,0 +1,39 @@
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-size: 50px;
+    margin-left: 65px;
+}
+
+main .container span{
+    font-size:100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn{
+    width: 90px;
+    font-weight: lighter;
+    border: 1px solid black;
+    border-radius: 7px;
+    background: none;
+    padding:7px;
+}
+
+#btn:hover{
+    background-color: #a19f99;
+    cursor: pointer;
+}
